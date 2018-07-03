@@ -3,7 +3,7 @@
 /local.properties
 /.idea/
 .DS_Store
-/gradle
+/gradle/
 /build
 /captures
 .externalNativeBuild
