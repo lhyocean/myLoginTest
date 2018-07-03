@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name="cn.hello.demo.SharedOneActivity"
+            android:windowSoftInputMode="adjustPan"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

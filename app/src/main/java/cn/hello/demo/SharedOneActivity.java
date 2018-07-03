@@ -64,9 +64,9 @@ public class SharedOneActivity extends AppCompatActivity implements ViewTreeObse
 
         AnimatorSet set = new AnimatorSet();
         ObjectAnimator  objectAnimatorUp=ObjectAnimator.ofFloat(mLinearLayout,"translationY",0,-d20,-d40,-d60,-d80);
-        objectAnimatorUp.setDuration(500);
+        objectAnimatorUp.setDuration(300);
         ObjectAnimator  objectAnimatorDown=ObjectAnimator.ofFloat(mLinearLayout,"translationY",-d80,-d60,-d40,-d20,0);
-        objectAnimatorDown.setDuration(500);
+        objectAnimatorDown.setDuration(300);
 
 
         boolean f=isKeyboardShown(this.getWindow().getDecorView().getRootView());
